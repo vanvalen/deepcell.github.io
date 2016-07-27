@@ -14,7 +14,7 @@ group: navigation
 	- You will need a CUDA/cuDNN capable Nvidia GPU. We have had good success with the Nvidia GTX 980, Titan X, and GTX 1080 graphics cards.
 
 - Does __DeepCell__ work with TensorFlow?
-	- Unfortunately no. We have found that TensorFlow is unable to use numpy like indexing to address tensors. This makes it significantly harder to implement d-regularly pooling kernels - but we're working on it.
+	- Unfortunately no. We have found that TensorFlow is unable to use numpy like indexing to address tensors. This makes it significantly harder to implement d-regularly sparse pooling kernels - but we're working on it.
 
 - Does __DeepCell__ track cells from frame to frame?
 	- Unfortunately no. Right now, this software package focuses solely on the image segmentation problem for live-cell experiments. However, we are aware that cell tracking is an issue for a number of labs and we're actively working on deep learning approaches to this problem.
