@@ -8,7 +8,7 @@ group: navigation
 {% include JB/setup %}
 
 - I'm having trouble with __DeepCell__. Can I get help.
-	- Yes. If you think you have discovered a bug that needs to be fixed please file a report on the GitHub page. 
+	- Yes. If you think you have discovered a bug that needs to be fixed please file a report on the [SimTK](http://simtk.org/projects/deepcell) page. 
 
 - What kind of hardware do I need to run __DeepCell__?
 	- You will need a CUDA/cuDNN capable Nvidia GPU. We have had good success with the Nvidia GTX 980, Titan X, and GTX 1080 graphics cards.
